@@ -1,0 +1,44 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "hasPart": {
+        "@id": "ro-crate-metadata-template.xlsx"
+      }
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "ro-crate-metadata-template.xlsx",
+      "@type": "File",
+      "name": "ro-crate-metadata-template.xlsx",
+      "description": "",
+      "contentSize": 113908,
+      "dateModified": "2025-07-18T10:02:32+10:00",
+      "encodingFormat": [
+        {
+          "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/214"
+        },
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      ]
+    },
+    {
+      "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/214",
+      "@type": "DigitalFormat",
+      "name": "Microsoft Excel for Windows"
+    }
+  ]
+}
