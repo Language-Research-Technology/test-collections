@@ -1,0 +1,1856 @@
+
+
+<html>
+<head>
+
+
+<script type="application/ld+json"> 
+  {
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/",
+      "ldac": "https://w3id.org/ldac/terms#",
+      "custom": "arcp://name,custom/terms#"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "UDHR_w_subcollections",
+      "@type": [
+        "Dataset",
+        "RepositoryCollection"
+      ],
+      "name": "Test Dataset: UDHR Translations with SubCollections",
+      "description": "Translations of Article 1 of the Universal Declaration of Human Rights from Omniglot.",
+      "ldac:doi": "https://doi.org/10.1000/182",
+      "isRef_license": "",
+      "datePublished": "2025-05-28",
+      "ldac:metadataIsPublic": "true",
+      "author": {
+        "@id": "#Omniglot"
+      },
+      "publisher": {
+        "@id": "https://ror.org/00rqy9422"
+      },
+      "dct:rightsHolder": {
+        "@id": "#Omniglot"
+      },
+      "accountablePerson": {
+        "@id": "#Omniglot"
+      },
+      "ldac:hasCollectionProtocol": {
+        "@id": "collection.txt"
+      },
+      "hasPart": [
+        {
+          "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license1/v1/"
+        },
+        {
+          "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/"
+        },
+        {
+          "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license3/v1/"
+        },
+        {
+          "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license4/v1/"
+        }
+      ],
+      "pcdm:hasMember": [
+        {
+          "@id": "#Afro-Asiatic"
+        },
+        {
+          "@id": "#Indo-European"
+        },
+        {
+          "@id": "#Uralic"
+        },
+        {
+          "@id": "#Mongolic"
+        }
+      ],
+      "conformsTo": {
+        "@id": "https://w3id.org/ldac/profile#Collection"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license1/v1/"
+      }
+    },
+    {
+      "@id": "#Omniglot",
+      "@type": "Organization",
+      "name": "Omniglot"
+    },
+    {
+      "@id": "https://ror.org/00rqy9422",
+      "@type": "Organization",
+      "name": "University of Queensland"
+    },
+    {
+      "@id": "collection.txt",
+      "@type": [
+        "File",
+        "ldac:CollectionProtocol"
+      ],
+      "name": "Collection Notes",
+      "datePublished": "2025-05-28",
+      "author": {
+        "@id": "#LDaCA"
+      }
+    },
+    {
+      "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license1/v1/",
+      "@type": "ldac:DataReuseLicense",
+      "name": "Example Custom License 1",
+      "description": "This license explains who is allowed to use and possibly redistribute this data, and for what purpose.",
+      "ldac:allowTextIndex": "true",
+      "isPartOf": {
+        "@id": "UDHR_w_subcollections"
+      }
+    },
+    {
+      "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/",
+      "@type": "ldac:DataReuseLicense",
+      "name": "Example Custom License 2",
+      "description": "This license explains who is allowed to use and possibly redistribute this data, and for what purpose.",
+      "ldac:allowTextIndex": "true",
+      "isPartOf": {
+        "@id": "UDHR_w_subcollections"
+      }
+    },
+    {
+      "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license3/v1/",
+      "@type": "ldac:DataReuseLicense",
+      "name": "Example Custom License 3",
+      "description": "This license explains who is allowed to use and possibly redistribute this data, and for what purpose.",
+      "ldac:allowTextIndex": "true",
+      "isPartOf": {
+        "@id": "UDHR_w_subcollections"
+      }
+    },
+    {
+      "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license4/v1/",
+      "@type": "ldac:DataReuseLicense",
+      "name": "Example Custom License 4",
+      "description": "This license explains who is allowed to use and possibly redistribute this data, and for what purpose.",
+      "ldac:allowTextIndex": "true",
+      "isPartOf": {
+        "@id": "UDHR_w_subcollections"
+      }
+    },
+    {
+      "@id": "#Afro-Asiatic",
+      "@type": "RepositoryCollection",
+      "name": "Afro-Asiatic",
+      "description": "Afro-Asiatic languages.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "UDHR_w_subcollections"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license1/v1/"
+      },
+      "accountablePerson": {
+        "@id": "#Omniglot"
+      },
+      "pcdm:hasMember": {
+        "@id": "#UDHR_AncientEgyptian"
+      }
+    },
+    {
+      "@id": "#Indo-European",
+      "@type": "RepositoryCollection",
+      "name": "Indo-European",
+      "description": "Indo-European languages.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "UDHR_w_subcollections"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/"
+      },
+      "accountablePerson": {
+        "@id": "#Omniglot"
+      },
+      "pcdm:hasMember": [
+        {
+          "@id": "#UDHR_Danish"
+        },
+        {
+          "@id": "#UDHR_English"
+        },
+        {
+          "@id": "#UDHR_German"
+        },
+        {
+          "@id": "#UDHR_Icelandic"
+        },
+        {
+          "@id": "#UDHR_Latin"
+        },
+        {
+          "@id": "#UDHR_Lithuanian"
+        },
+        {
+          "@id": "#UDHR_OldEnglish"
+        },
+        {
+          "@id": "#UDHR_ScottishGaelic"
+        },
+        {
+          "@id": "#UDHR_Welsh"
+        }
+      ]
+    },
+    {
+      "@id": "#Uralic",
+      "@type": "RepositoryCollection",
+      "name": "Uralic",
+      "description": "Uralic languages.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "UDHR_w_subcollections"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license4/v1/"
+      },
+      "accountablePerson": {
+        "@id": "#Omniglot"
+      },
+      "pcdm:hasMember": {
+        "@id": "#UDHR_Finnish"
+      }
+    },
+    {
+      "@id": "#Mongolic",
+      "@type": "RepositoryCollection",
+      "name": "Mongolic",
+      "description": "Mongolic languages.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "UDHR_w_subcollections"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license3/v1/"
+      },
+      "accountablePerson": {
+        "@id": "#Omniglot"
+      },
+      "pcdm:hasMember": {
+        "@id": "#UDHR_Mongolian"
+      }
+    },
+    {
+      "@id": "#LDaCA",
+      "@type": "Organization",
+      "name": "Language Data Commons of Australia"
+    },
+    {
+      "@id": "#UDHR_AncientEgyptian",
+      "@type": "RepositoryObject",
+      "name": "UDHR_AncientEgyptian",
+      "description": "Article 1 UDHR Ancient Egyptian.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "#Afro-Asiatic"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license1/v1/"
+      },
+      "inLanguage": {
+        "@id": "#AncientEgyptian"
+      },
+      "ldac:subjectLanguage": {
+        "@id": "#AncientEgyptian"
+      },
+      "arcp://name,custom/terms#languageSubFamily": {
+        "@id": "arcp://name,custom/terms#Egyptian"
+      },
+      "hasPart": {
+        "@id": "Images/UDHR_AncientEgyptian.png"
+      }
+    },
+    {
+      "@id": "#UDHR_Danish",
+      "@type": "RepositoryObject",
+      "name": "UDHR_Danish",
+      "description": "Article 1 UDHR Danish.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "#Indo-European"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/"
+      },
+      "inLanguage": {
+        "@id": "#Danish"
+      },
+      "ldac:subjectLanguage": {
+        "@id": "#Danish"
+      },
+      "arcp://name,custom/terms#languageSubFamily": {
+        "@id": "arcp://name,custom/terms#Germanic"
+      },
+      "ldac:mainText": {
+        "@id": "Text/UDHR_Danish.txt"
+      },
+      "hasPart": [
+        {
+          "@id": "Text/UDHR_Danish.txt"
+        },
+        {
+          "@id": "Audio/UDHR_Danish.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#UDHR_English",
+      "@type": "RepositoryObject",
+      "name": "UDHR_English",
+      "description": "Article 1 UDHR English.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "#Indo-European"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/"
+      },
+      "inLanguage": {
+        "@id": "#English"
+      },
+      "ldac:subjectLanguage": {
+        "@id": "#English"
+      },
+      "arcp://name,custom/terms#languageSubFamily": {
+        "@id": "arcp://name,custom/terms#Germanic"
+      },
+      "ldac:mainText": {
+        "@id": "Text/UDHR_English.txt"
+      },
+      "hasPart": {
+        "@id": "Text/UDHR_English.txt"
+      }
+    },
+    {
+      "@id": "#UDHR_German",
+      "@type": "RepositoryObject",
+      "name": "UDHR_German",
+      "description": "Article 1 UDHR German.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "#Indo-European"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/"
+      },
+      "inLanguage": {
+        "@id": "#German"
+      },
+      "ldac:subjectLanguage": {
+        "@id": "#German"
+      },
+      "arcp://name,custom/terms#languageSubFamily": {
+        "@id": "arcp://name,custom/terms#Germanic"
+      },
+      "ldac:mainText": {
+        "@id": "Text/UDHR_German.txt"
+      },
+      "hasPart": [
+        {
+          "@id": "Text/UDHR_German.txt"
+        },
+        {
+          "@id": "Audio/UDHR_German.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#UDHR_Icelandic",
+      "@type": "RepositoryObject",
+      "name": "UDHR_Icelandic",
+      "description": "Article 1 UDHR Icelandic.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "#Indo-European"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/"
+      },
+      "inLanguage": {
+        "@id": "#Icelandic"
+      },
+      "ldac:subjectLanguage": {
+        "@id": "#Icelandic"
+      },
+      "arcp://name,custom/terms#languageSubFamily": {
+        "@id": "arcp://name,custom/terms#Germanic"
+      },
+      "ldac:mainText": {
+        "@id": "Text/UDHR_Icelandic.txt"
+      },
+      "hasPart": [
+        {
+          "@id": "Text/UDHR_Icelandic.txt"
+        },
+        {
+          "@id": "Audio/UDHR_Icelandic.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#UDHR_Latin",
+      "@type": "RepositoryObject",
+      "name": "UDHR_Latin",
+      "description": "Article 1 UDHR Latin.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "#Indo-European"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/"
+      },
+      "inLanguage": {
+        "@id": "#Latin"
+      },
+      "ldac:subjectLanguage": {
+        "@id": "#Latin"
+      },
+      "arcp://name,custom/terms#languageSubFamily": {
+        "@id": "arcp://name,custom/terms#Italic"
+      },
+      "ldac:mainText": {
+        "@id": "Text/UDHR_Latin.txt"
+      },
+      "hasPart": [
+        {
+          "@id": "Text/UDHR_Latin.txt"
+        },
+        {
+          "@id": "Audio/UDHR_Latin.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#UDHR_Lithuanian",
+      "@type": "RepositoryObject",
+      "name": "UDHR_Lithuanian",
+      "description": "Article 1 UDHR Lithuanian.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "#Indo-European"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/"
+      },
+      "inLanguage": {
+        "@id": "#Lithuanian"
+      },
+      "ldac:subjectLanguage": {
+        "@id": "#Lithuanian"
+      },
+      "arcp://name,custom/terms#languageSubFamily": {
+        "@id": "arcp://name,custom/terms#BaltoSlavic"
+      },
+      "ldac:mainText": {
+        "@id": "Text/UDHR_Lithuanian.txt"
+      },
+      "hasPart": [
+        {
+          "@id": "Text/UDHR_Lithuanian.txt"
+        },
+        {
+          "@id": "Audio/UDHR_Lithuanian.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#UDHR_OldEnglish",
+      "@type": "RepositoryObject",
+      "name": "UDHR_OldEnglish",
+      "description": "Article 1 UDHR Old English.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "#Indo-European"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/"
+      },
+      "inLanguage": {
+        "@id": "#OldEnglish"
+      },
+      "ldac:subjectLanguage": {
+        "@id": "#OldEnglish"
+      },
+      "arcp://name,custom/terms#languageSubFamily": {
+        "@id": "arcp://name,custom/terms#Germanic"
+      },
+      "ldac:mainText": {
+        "@id": "Text/UDHR_OldEnglish.txt"
+      },
+      "hasPart": [
+        {
+          "@id": "Text/UDHR_OldEnglish.txt"
+        },
+        {
+          "@id": "Images/UDHR_OldEnglish.png"
+        }
+      ]
+    },
+    {
+      "@id": "#UDHR_ScottishGaelic",
+      "@type": "RepositoryObject",
+      "name": "UDHR_ScottishGaelic",
+      "description": "Article 1 UDHR Scottish Gaelic.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "#Indo-European"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/"
+      },
+      "inLanguage": {
+        "@id": "#ScottishGaelic"
+      },
+      "ldac:subjectLanguage": {
+        "@id": "#ScottishGaelic"
+      },
+      "arcp://name,custom/terms#languageSubFamily": {
+        "@id": "arcp://name,custom/terms#Celtic"
+      },
+      "ldac:mainText": {
+        "@id": "Text/UDHR_ScottishGaelic.txt"
+      },
+      "hasPart": [
+        {
+          "@id": "Text/UDHR_ScottishGaelic.txt"
+        },
+        {
+          "@id": "Audio/UDHR_ScottishGaelic.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#UDHR_Welsh",
+      "@type": "RepositoryObject",
+      "name": "UDHR_Welsh",
+      "description": "Article 1 UDHR Welsh.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "#Indo-European"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/"
+      },
+      "inLanguage": {
+        "@id": "#Welsh"
+      },
+      "ldac:subjectLanguage": {
+        "@id": "#Welsh"
+      },
+      "arcp://name,custom/terms#languageSubFamily": {
+        "@id": "arcp://name,custom/terms#Celtic"
+      },
+      "ldac:mainText": {
+        "@id": "Text/UDHR_Welsh.txt"
+      },
+      "hasPart": [
+        {
+          "@id": "Text/UDHR_Welsh.txt"
+        },
+        {
+          "@id": "Audio/UDHR_Welsh.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#UDHR_Finnish",
+      "@type": "RepositoryObject",
+      "name": "UDHR_Finnish",
+      "description": "Article 1 UDHR Finnish.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "#Uralic"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license4/v1/"
+      },
+      "inLanguage": {
+        "@id": "#Finnish"
+      },
+      "ldac:subjectLanguage": {
+        "@id": "#Finnish"
+      },
+      "arcp://name,custom/terms#languageSubFamily": {
+        "@id": "arcp://name,custom/terms#Finnic"
+      },
+      "ldac:mainText": {
+        "@id": "Text/UDHR_Finnish.txt"
+      },
+      "hasPart": [
+        {
+          "@id": "Text/UDHR_Finnish.txt"
+        },
+        {
+          "@id": "Audio/UDHR_Finnish.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "#UDHR_Mongolian",
+      "@type": "RepositoryObject",
+      "name": "UDHR_Mongolian",
+      "description": "Article 1 UDHR Mongolian.",
+      "datePublished": "2025-05-28",
+      "pcdm:memberOf": {
+        "@id": "#Mongolic"
+      },
+      "license": {
+        "@id": "https://language-research-technology.github.io/qa/licenses/udhr/license3/v1/"
+      },
+      "inLanguage": {
+        "@id": "#Mongolian"
+      },
+      "ldac:subjectLanguage": {
+        "@id": "#Mongolian"
+      },
+      "arcp://name,custom/terms#languageSubFamily": {
+        "@id": "arcp://name,custom/terms#CentralMongolic"
+      },
+      "ldac:mainText": {
+        "@id": "Text/UDHR_Mongolian.txt"
+      },
+      "hasPart": [
+        {
+          "@id": "Text/UDHR_Mongolian.txt"
+        },
+        {
+          "@id": "Audio/UDHR_Mongolian.mp3"
+        }
+      ]
+    },
+    {
+      "@id": "arcp://name,custom/terms#LanguageStatusTerms",
+      "@type": "DefinedTermSet",
+      "name": "Language Status Terms",
+      "description": "The set of expected values for language status."
+    },
+    {
+      "@id": "arcp://name,custom/terms#LanguageSubFamilyTerms",
+      "@type": "DefinedTermSet",
+      "name": "Language Sub-Family Terms",
+      "description": "The set of expected values for language sub-family."
+    },
+    {
+      "@id": "#AncientEgyptian",
+      "@type": "Language",
+      "name": "Ancient Egyptian"
+    },
+    {
+      "@id": "arcp://name,custom/terms#Egyptian",
+      "@type": "DefinedTerm",
+      "name": "Egyptian",
+      "description": "Egyptian languages.",
+      "inDefinedTermSet": {
+        "@id": "arcp://name,custom/terms#LanguageSubFamilyTerms"
+      }
+    },
+    {
+      "@id": "Images/UDHR_AncientEgyptian.png",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_AncientEgyptian"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Extinct"
+      }
+    },
+    {
+      "@id": "#Danish",
+      "@type": "Language",
+      "name": "Danish"
+    },
+    {
+      "@id": "arcp://name,custom/terms#Germanic",
+      "@type": "DefinedTerm",
+      "name": "Germanic",
+      "description": "Germanic languages.",
+      "inDefinedTermSet": {
+        "@id": "arcp://name,custom/terms#LanguageSubFamilyTerms"
+      }
+    },
+    {
+      "@id": "Text/UDHR_Danish.txt",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Danish"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "Audio/UDHR_Danish.mp3",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Danish"
+      },
+      "ldac:speaker": {
+        "@id": "#Danish_Speaker"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "#English",
+      "@type": "Language",
+      "name": "English"
+    },
+    {
+      "@id": "Text/UDHR_English.txt",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_English"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "#German",
+      "@type": "Language",
+      "name": "German"
+    },
+    {
+      "@id": "Text/UDHR_German.txt",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_German"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "Audio/UDHR_German.mp3",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_German"
+      },
+      "ldac:speaker": {
+        "@id": "#German_Speaker"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "#Icelandic",
+      "@type": "Language",
+      "name": "Icelandic"
+    },
+    {
+      "@id": "Text/UDHR_Icelandic.txt",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Icelandic"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "Audio/UDHR_Icelandic.mp3",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Icelandic"
+      },
+      "ldac:speaker": {
+        "@id": "#Icelandic_Speaker"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "#Latin",
+      "@type": "Language",
+      "name": "Latin"
+    },
+    {
+      "@id": "arcp://name,custom/terms#Italic",
+      "@type": "DefinedTerm",
+      "name": "Italic",
+      "description": "Italic languages.",
+      "inDefinedTermSet": {
+        "@id": "arcp://name,custom/terms#LanguageSubFamilyTerms"
+      }
+    },
+    {
+      "@id": "Text/UDHR_Latin.txt",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Latin"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Extinct"
+      }
+    },
+    {
+      "@id": "Audio/UDHR_Latin.mp3",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Latin"
+      },
+      "ldac:speaker": {
+        "@id": "#Latin_Speaker"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Extinct"
+      }
+    },
+    {
+      "@id": "#Lithuanian",
+      "@type": "Language",
+      "name": "Lithuanian"
+    },
+    {
+      "@id": "arcp://name,custom/terms#BaltoSlavic",
+      "@type": "DefinedTerm",
+      "name": "Balto-Slavic",
+      "description": "Balto-Slavic languages.",
+      "inDefinedTermSet": {
+        "@id": "arcp://name,custom/terms#LanguageSubFamilyTerms"
+      }
+    },
+    {
+      "@id": "Text/UDHR_Lithuanian.txt",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Lithuanian"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "Audio/UDHR_Lithuanian.mp3",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Lithuanian"
+      },
+      "ldac:speaker": {
+        "@id": "#Lithuanian_Speaker"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "#OldEnglish",
+      "@type": "Language",
+      "name": "Old English"
+    },
+    {
+      "@id": "Text/UDHR_OldEnglish.txt",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_OldEnglish"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Extinct"
+      }
+    },
+    {
+      "@id": "Images/UDHR_OldEnglish.png",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_OldEnglish"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Extinct"
+      }
+    },
+    {
+      "@id": "#ScottishGaelic",
+      "@type": "Language",
+      "name": "Scottish Gaelic"
+    },
+    {
+      "@id": "arcp://name,custom/terms#Celtic",
+      "@type": "DefinedTerm",
+      "name": "Celtic",
+      "description": "Celtic languages.",
+      "inDefinedTermSet": {
+        "@id": "arcp://name,custom/terms#LanguageSubFamilyTerms"
+      }
+    },
+    {
+      "@id": "Text/UDHR_ScottishGaelic.txt",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_ScottishGaelic"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "Audio/UDHR_ScottishGaelic.mp3",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_ScottishGaelic"
+      },
+      "ldac:speaker": {
+        "@id": "#ScottishGaelic_Speaker"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "#Welsh",
+      "@type": "Language",
+      "name": "Welsh"
+    },
+    {
+      "@id": "Text/UDHR_Welsh.txt",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Welsh"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "Audio/UDHR_Welsh.mp3",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Welsh"
+      },
+      "ldac:speaker": {
+        "@id": "#Welsh_Speaker"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "#Finnish",
+      "@type": "Language",
+      "name": "Finnish"
+    },
+    {
+      "@id": "arcp://name,custom/terms#Finnic",
+      "@type": "DefinedTerm",
+      "name": "Finnic",
+      "description": "Finnic languages.",
+      "inDefinedTermSet": {
+        "@id": "arcp://name,custom/terms#LanguageSubFamilyTerms"
+      }
+    },
+    {
+      "@id": "Text/UDHR_Finnish.txt",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Finnish"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "Audio/UDHR_Finnish.mp3",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Finnish"
+      },
+      "ldac:speaker": {
+        "@id": "#Finnish_Speaker"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "#Mongolian",
+      "@type": "Language",
+      "name": "Mongolian"
+    },
+    {
+      "@id": "arcp://name,custom/terms#CentralMongolic",
+      "@type": "DefinedTerm",
+      "name": "Central Mongolic",
+      "description": "Central Mongolic languages.",
+      "inDefinedTermSet": {
+        "@id": "arcp://name,custom/terms#LanguageSubFamilyTerms"
+      }
+    },
+    {
+      "@id": "Text/UDHR_Mongolian.txt",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Mongolian"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "Audio/UDHR_Mongolian.mp3",
+      "@type": [
+        "File",
+        "ldac:PrimaryMaterial"
+      ],
+      "isPartOf": {
+        "@id": "#UDHR_Mongolian"
+      },
+      "ldac:speaker": {
+        "@id": "#Mongolian_Speaker"
+      },
+      "arcp://name,custom/terms#languageStatus": {
+        "@id": "arcp://name,custom/terms#Living"
+      }
+    },
+    {
+      "@id": "arcp://name,custom/terms#Extinct",
+      "@type": "DefinedTerm",
+      "name": "Extinct",
+      "description": "The language is no longer spoken as a first language.",
+      "inDefinedTermSet": {
+        "@id": "arcp://name,custom/terms#LanguageStatusTerms"
+      }
+    },
+    {
+      "@id": "arcp://name,custom/terms#Living",
+      "@type": "DefinedTerm",
+      "name": "Living",
+      "description": "The language is spoken as a first language.",
+      "inDefinedTermSet": {
+        "@id": "arcp://name,custom/terms#LanguageStatusTerms"
+      }
+    },
+    {
+      "@id": "#Danish_Speaker",
+      "@type": "Person",
+      "name": "Unknown"
+    },
+    {
+      "@id": "#German_Speaker",
+      "@type": "Person",
+      "name": "Unknown"
+    },
+    {
+      "@id": "#Icelandic_Speaker",
+      "@type": "Person",
+      "name": "Alexander Jarl"
+    },
+    {
+      "@id": "#Latin_Speaker",
+      "@type": "Person",
+      "name": "Connor Ferguson"
+    },
+    {
+      "@id": "#Lithuanian_Speaker",
+      "@type": "Person",
+      "name": "Augustinas Žemaitis"
+    },
+    {
+      "@id": "#ScottishGaelic_Speaker",
+      "@type": "Person",
+      "name": "Frederic (Calum) Bayer"
+    },
+    {
+      "@id": "#Welsh_Speaker",
+      "@type": "Person",
+      "name": "Stephen Turner"
+    },
+    {
+      "@id": "#Finnish_Speaker",
+      "@type": "Person",
+      "name": "Unknown"
+    },
+    {
+      "@id": "#Mongolian_Speaker",
+      "@type": "Person",
+      "name": "Bat-Orgil Myagmardorj"
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "UDHR_w_subcollections"
+      }
+    },
+    {
+      "@id": "arcp://name,custom/terms#languageStatus",
+      "@type": "rdf:Property",
+      "name": "Language Status",
+      "description": "The status of the language, whether living or extinct.",
+      "rangeIncludes": [
+        "Extinct",
+        "Living"
+      ]
+    },
+    {
+      "@id": "arcp://name,custom/terms#languageSubFamily",
+      "@type": "rdf:Property",
+      "name": "Language Sub-Family",
+      "description": "A group of languages related through descent from a common ancestor.",
+      "rangeIncludes": [
+        "BaltoSlavic",
+        "Celtic",
+        "CentralMongolic",
+        "Egyptian",
+        "Finnic",
+        "Germanic",
+        "Italic"
+      ]
+    }
+  ]
+}
+</script>
+
+    
+<!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script -->
+<script src="https://unpkg.com/ro-crate-html@0.1/dist/ro-crate-dynamic.min.js"></script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta charset='utf-8'/>
+<style>
+
+table.table {
+  padding-bottom: 300px;
+}
+</style>
+</head>
+
+
+<body>
+
+  <nav class="navbar">
+
+    <ul class="nav navbar-nav" >
+        <li ><a href="#"><span class="glyphicon glyphicon-home dataset_name">&nbsp;Test Dataset: UDHR Translations with SubCollections</span></a></li>
+    </ul>
+
+  </nav>
+<div class="container">
+<div class="jumbotron">
+<h4 class="citation"></h4>
+<h3 class="item_name">Test Dataset: UDHR Translations with SubCollections</h3>
+
+
+<a href="./ro-crate-metadata.json">⬇️🏷️ Download all the metadata for <span class='name'>Test Dataset: UDHR Translations with SubCollections</span> in JSON-LD format</a>
+
+
+<div id="check"></div>
+
+
+</div>
+
+
+
+<div id="summary">
+<div class='all-meta'>
+            <div>
+                <h3> Test Dataset: UDHR Translations with SubCollections</h3>
+                
+                
+                
+                
+        <div id="UDHR_w_subcollections">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>UDHR_w_subcollections</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Test Dataset: UDHR Translations with SubCollections</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><ul>
+                        <li><span>Dataset</span></li>
+                        
+                        <li><span>RepositoryCollection</span></li>
+                        </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>Translations of Article 1 of the Universal Declaration of Human Rights from Omniglot.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2025-05-28</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">author<span>&nbsp;</span><a href="http://schema.org/author">[?]</a></th>
+            <td style='text-align:left'><a href="#%23Omniglot">Omniglot</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">ldac:doi<span>&nbsp;</span><a href="https://w3id.org/ldac/terms#doi">[?]</a></th>
+            <td style='text-align:left'><a href="https://doi.org/10.1000/182">https://doi.org/10.1000/182</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">isRef_license</th>
+            <td style='text-align:left'></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">ldac:metadataIsPublic<span>&nbsp;</span><a href="https://w3id.org/ldac/terms#metadataIsPublic">[?]</a></th>
+            <td style='text-align:left'><span>true</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">publisher<span>&nbsp;</span><a href="http://schema.org/publisher">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//ror.org/00rqy9422">University of Queensland</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">dct:rightsHolder<span>&nbsp;</span><a href="http://purl.org/dc/terms/rightsHolder">[?]</a></th>
+            <td style='text-align:left'><a href="#%23Omniglot">Omniglot</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">accountablePerson<span>&nbsp;</span><a href="http://schema.org/accountablePerson">[?]</a></th>
+            <td style='text-align:left'><a href="#%23Omniglot">Omniglot</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">ldac:hasCollectionProtocol<span>&nbsp;</span><a href="https://w3id.org/ldac/terms#hasCollectionProtocol">[?]</a></th>
+            <td style='text-align:left'><a href="#collection.txt">Collection Notes</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#https%3A//language-research-technology.github.io/qa/licenses/udhr/license1/v1/">Example Custom License 1</a></li>
+                        
+                        <li><a href="#https%3A//language-research-technology.github.io/qa/licenses/udhr/license2/v1/">Example Custom License 2</a></li>
+                        
+                        <li><a href="#https%3A//language-research-technology.github.io/qa/licenses/udhr/license3/v1/">Example Custom License 3</a></li>
+                        
+                        <li><a href="#https%3A//language-research-technology.github.io/qa/licenses/udhr/license4/v1/">Example Custom License 4</a></li>
+                        </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:hasMember<span>&nbsp;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#%23Afro-Asiatic">Afro-Asiatic</a></li>
+                        
+                        <li><a href="#%23Indo-European">Indo-European</a></li>
+                        
+                        <li><a href="#%23Uralic">Uralic</a></li>
+                        
+                        <li><a href="#%23Mongolic">Mongolic</a></li>
+                        </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">conformsTo<span>&nbsp;</span><a href="http://purl.org/dc/terms/conformsTo">[?]</a></th>
+            <td style='text-align:left'><a href="https://w3id.org/ldac/profile#Collection">https://w3id.org/ldac/profile#Collection</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//language-research-technology.github.io/qa/licenses/udhr/license1/v1/">Example Custom License 1</a></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">isPartOf<span>&nbsp;</span><a href="http://schema.org/isPartOf">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#https%3A//language-research-technology.github.io/qa/licenses/udhr/license1/v1/">Example Custom License 1</a></li>
+                        
+                        <li><a href="#https%3A//language-research-technology.github.io/qa/licenses/udhr/license2/v1/">Example Custom License 2</a></li>
+                        
+                        <li><a href="#https%3A//language-research-technology.github.io/qa/licenses/udhr/license3/v1/">Example Custom License 3</a></li>
+                        
+                        <li><a href="#https%3A//language-research-technology.github.io/qa/licenses/udhr/license4/v1/">Example Custom License 4</a></li>
+                        </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:memberOf<span>&nbsp;</span><a href="http://pcdm.org/models#memberOf">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#%23Afro-Asiatic">Afro-Asiatic</a></li>
+                        
+                        <li><a href="#%23Indo-European">Indo-European</a></li>
+                        
+                        <li><a href="#%23Uralic">Uralic</a></li>
+                        
+                        <li><a href="#%23Mongolic">Mongolic</a></li>
+                        </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">about<span>&nbsp;</span><a href="http://schema.org/about">[?]</a></th>
+            <td style='text-align:left'><a href="#ro-crate-metadata.json">ro-crate-metadata.json</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+            </div>
+        <hr/><br/><br/>
+            <div>
+                <h3> Omniglot</h3>
+                
+                
+                
+                
+        <div id="#Omniglot">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>#Omniglot</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Omniglot</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>Organization</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">author<span>&nbsp;</span><a href="http://schema.org/author">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">dct:rightsHolder<span>&nbsp;</span><a href="http://purl.org/dc/terms/rightsHolder">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">accountablePerson<span>&nbsp;</span><a href="http://schema.org/accountablePerson">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></li>
+                        
+                        <li><a href="#%23Afro-Asiatic">Afro-Asiatic</a></li>
+                        
+                        <li><a href="#%23Indo-European">Indo-European</a></li>
+                        
+                        <li><a href="#%23Uralic">Uralic</a></li>
+                        
+                        <li><a href="#%23Mongolic">Mongolic</a></li>
+                        </ul></td>
+            </tr></tbody>
+            </table>
+        </div>
+            </div>
+        <hr/><br/><br/>
+            <div>
+                <h3><a href="https://ror.org/00rqy9422">Go to: </a> University of Queensland</h3>
+                
+                
+                
+                
+        <div id="https://ror.org/00rqy9422">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://ror.org/00rqy9422">https://ror.org/00rqy9422</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>University of Queensland</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>Organization</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">publisher<span>&nbsp;</span><a href="http://schema.org/publisher">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+            </div>
+        <hr/><br/><br/>
+            <div>
+                <h3><a href="collection.txt">⬇️ Download: </a> Collection Notes</h3>
+                
+                <iframe src='collection.txt' width='100%' height='500'></iframe>
+                
+                
+        <div id="collection.txt">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>collection.txt</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Collection Notes</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><ul>
+                        <li><span>File</span></li>
+                        
+                        <li><span>ldac:CollectionProtocol</span></li>
+                        </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2025-05-28</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">author<span>&nbsp;</span><a href="http://schema.org/author">[?]</a></th>
+            <td style='text-align:left'><a href="#%23LDaCA">Language Data Commons of Australia</a></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">ldac:hasCollectionProtocol<span>&nbsp;</span><a href="https://w3id.org/ldac/terms#hasCollectionProtocol">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+            </div>
+        <hr/><br/><br/>
+            <div>
+                <h3><a href="https://language-research-technology.github.io/qa/licenses/udhr/license1/v1/">Go to: </a> Example Custom License 1</h3>
+                
+                
+                
+                
+        <div id="https://language-research-technology.github.io/qa/licenses/udhr/license1/v1/">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://language-research-technology.github.io/qa/licenses/udhr/license1/v1/">https://language-research-technology.github.io/qa/licenses/udhr/license1/v1/</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Example Custom License 1</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>ldac:DataReuseLicense</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>This license explains who is allowed to use and possibly redistribute this data, and for what purpose.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">isPartOf<span>&nbsp;</span><a href="http://schema.org/isPartOf">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">ldac:allowTextIndex<span>&nbsp;</span><a href="https://w3id.org/ldac/terms#allowTextIndex">[?]</a></th>
+            <td style='text-align:left'><span>true</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></li>
+                        
+                        <li><a href="#%23Afro-Asiatic">Afro-Asiatic</a></li>
+                        
+                        <li><a href="#%23UDHR_AncientEgyptian">UDHR_AncientEgyptian</a></li>
+                        </ul></td>
+            </tr></tbody>
+            </table>
+        </div>
+            </div>
+        <hr/><br/><br/>
+            <div>
+                <h3><a href="https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/">Go to: </a> Example Custom License 2</h3>
+                
+                
+                
+                
+        <div id="https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/">https://language-research-technology.github.io/qa/licenses/udhr/license2/v1/</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Example Custom License 2</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>ldac:DataReuseLicense</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>This license explains who is allowed to use and possibly redistribute this data, and for what purpose.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">isPartOf<span>&nbsp;</span><a href="http://schema.org/isPartOf">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">ldac:allowTextIndex<span>&nbsp;</span><a href="https://w3id.org/ldac/terms#allowTextIndex">[?]</a></th>
+            <td style='text-align:left'><span>true</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#%23Indo-European">Indo-European</a></li>
+                        
+                        <li><a href="#%23UDHR_Danish">UDHR_Danish</a></li>
+                        
+                        <li><a href="#%23UDHR_English">UDHR_English</a></li>
+                        
+                        <li><a href="#%23UDHR_German">UDHR_German</a></li>
+                        
+                        <li><a href="#%23UDHR_Icelandic">UDHR_Icelandic</a></li>
+                        
+                        <li><a href="#%23UDHR_Latin">UDHR_Latin</a></li>
+                        
+                        <li><a href="#%23UDHR_Lithuanian">UDHR_Lithuanian</a></li>
+                        
+                        <li><a href="#%23UDHR_OldEnglish">UDHR_OldEnglish</a></li>
+                        
+                        <li><a href="#%23UDHR_ScottishGaelic">UDHR_ScottishGaelic</a></li>
+                        
+                        <li><a href="#%23UDHR_Welsh">UDHR_Welsh</a></li>
+                        </ul></td>
+            </tr></tbody>
+            </table>
+        </div>
+            </div>
+        <hr/><br/><br/>
+            <div>
+                <h3><a href="https://language-research-technology.github.io/qa/licenses/udhr/license3/v1/">Go to: </a> Example Custom License 3</h3>
+                
+                
+                
+                
+        <div id="https://language-research-technology.github.io/qa/licenses/udhr/license3/v1/">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://language-research-technology.github.io/qa/licenses/udhr/license3/v1/">https://language-research-technology.github.io/qa/licenses/udhr/license3/v1/</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Example Custom License 3</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>ldac:DataReuseLicense</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>This license explains who is allowed to use and possibly redistribute this data, and for what purpose.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">isPartOf<span>&nbsp;</span><a href="http://schema.org/isPartOf">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">ldac:allowTextIndex<span>&nbsp;</span><a href="https://w3id.org/ldac/terms#allowTextIndex">[?]</a></th>
+            <td style='text-align:left'><span>true</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#%23Mongolic">Mongolic</a></li>
+                        
+                        <li><a href="#%23UDHR_Mongolian">UDHR_Mongolian</a></li>
+                        </ul></td>
+            </tr></tbody>
+            </table>
+        </div>
+            </div>
+        <hr/><br/><br/>
+            <div>
+                <h3><a href="https://language-research-technology.github.io/qa/licenses/udhr/license4/v1/">Go to: </a> Example Custom License 4</h3>
+                
+                
+                
+                
+        <div id="https://language-research-technology.github.io/qa/licenses/udhr/license4/v1/">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://language-research-technology.github.io/qa/licenses/udhr/license4/v1/">https://language-research-technology.github.io/qa/licenses/udhr/license4/v1/</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Example Custom License 4</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>ldac:DataReuseLicense</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>This license explains who is allowed to use and possibly redistribute this data, and for what purpose.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">isPartOf<span>&nbsp;</span><a href="http://schema.org/isPartOf">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">ldac:allowTextIndex<span>&nbsp;</span><a href="https://w3id.org/ldac/terms#allowTextIndex">[?]</a></th>
+            <td style='text-align:left'><span>true</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#%23Uralic">Uralic</a></li>
+                        
+                        <li><a href="#%23UDHR_Finnish">UDHR_Finnish</a></li>
+                        </ul></td>
+            </tr></tbody>
+            </table>
+        </div>
+            </div>
+        <hr/><br/><br/>
+            <div>
+                <h3> Afro-Asiatic</h3>
+                
+                
+                
+                
+        <div id="#Afro-Asiatic">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>#Afro-Asiatic</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Afro-Asiatic</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>RepositoryCollection</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>Afro-Asiatic languages.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2025-05-28</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:memberOf<span>&nbsp;</span><a href="http://pcdm.org/models#memberOf">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//language-research-technology.github.io/qa/licenses/udhr/license1/v1/">Example Custom License 1</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">accountablePerson<span>&nbsp;</span><a href="http://schema.org/accountablePerson">[?]</a></th>
+            <td style='text-align:left'><a href="#%23Omniglot">Omniglot</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:hasMember<span>&nbsp;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th>
+            <td style='text-align:left'><a href="#%23UDHR_AncientEgyptian">UDHR_AncientEgyptian</a></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:hasMember<span>&nbsp;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:memberOf<span>&nbsp;</span><a href="http://pcdm.org/models#memberOf">[?]</a></th>
+            <td style='text-align:left'><a href="#%23UDHR_AncientEgyptian">UDHR_AncientEgyptian</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+            </div>
+        <hr/><br/><br/>
+            <div>
+                <h3> Indo-European</h3>
+                
+                
+                
+                
+        <div id="#Indo-European">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>#Indo-European</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Indo-European</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>RepositoryCollection</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>Indo-European languages.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2025-05-28</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:memberOf<span>&nbsp;</span><a href="http://pcdm.org/models#memberOf">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//language-research-technology.github.io/qa/licenses/udhr/license2/v1/">Example Custom License 2</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">accountablePerson<span>&nbsp;</span><a href="http://schema.org/accountablePerson">[?]</a></th>
+            <td style='text-align:left'><a href="#%23Omniglot">Omniglot</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:hasMember<span>&nbsp;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#%23UDHR_Danish">UDHR_Danish</a></li>
+                        
+                        <li><a href="#%23UDHR_English">UDHR_English</a></li>
+                        
+                        <li><a href="#%23UDHR_German">UDHR_German</a></li>
+                        
+                        <li><a href="#%23UDHR_Icelandic">UDHR_Icelandic</a></li>
+                        
+                        <li><a href="#%23UDHR_Latin">UDHR_Latin</a></li>
+                        
+                        <li><a href="#%23UDHR_Lithuanian">UDHR_Lithuanian</a></li>
+                        
+                        <li><a href="#%23UDHR_OldEnglish">UDHR_OldEnglish</a></li>
+                        
+                        <li><a href="#%23UDHR_ScottishGaelic">UDHR_ScottishGaelic</a></li>
+                        
+                        <li><a href="#%23UDHR_Welsh">UDHR_Welsh</a></li>
+                        </ul></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:hasMember<span>&nbsp;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:memberOf<span>&nbsp;</span><a href="http://pcdm.org/models#memberOf">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#%23UDHR_Danish">UDHR_Danish</a></li>
+                        
+                        <li><a href="#%23UDHR_English">UDHR_English</a></li>
+                        
+                        <li><a href="#%23UDHR_German">UDHR_German</a></li>
+                        
+                        <li><a href="#%23UDHR_Icelandic">UDHR_Icelandic</a></li>
+                        
+                        <li><a href="#%23UDHR_Latin">UDHR_Latin</a></li>
+                        
+                        <li><a href="#%23UDHR_Lithuanian">UDHR_Lithuanian</a></li>
+                        
+                        <li><a href="#%23UDHR_OldEnglish">UDHR_OldEnglish</a></li>
+                        
+                        <li><a href="#%23UDHR_ScottishGaelic">UDHR_ScottishGaelic</a></li>
+                        
+                        <li><a href="#%23UDHR_Welsh">UDHR_Welsh</a></li>
+                        </ul></td>
+            </tr></tbody>
+            </table>
+        </div>
+            </div>
+        <hr/><br/><br/>
+            <div>
+                <h3> Uralic</h3>
+                
+                
+                
+                
+        <div id="#Uralic">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>#Uralic</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Uralic</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>RepositoryCollection</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>Uralic languages.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2025-05-28</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:memberOf<span>&nbsp;</span><a href="http://pcdm.org/models#memberOf">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//language-research-technology.github.io/qa/licenses/udhr/license4/v1/">Example Custom License 4</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">accountablePerson<span>&nbsp;</span><a href="http://schema.org/accountablePerson">[?]</a></th>
+            <td style='text-align:left'><a href="#%23Omniglot">Omniglot</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:hasMember<span>&nbsp;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th>
+            <td style='text-align:left'><a href="#%23UDHR_Finnish">UDHR_Finnish</a></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:hasMember<span>&nbsp;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:memberOf<span>&nbsp;</span><a href="http://pcdm.org/models#memberOf">[?]</a></th>
+            <td style='text-align:left'><a href="#%23UDHR_Finnish">UDHR_Finnish</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+            </div>
+        <hr/><br/><br/>
+            <div>
+                <h3> Mongolic</h3>
+                
+                
+                
+                
+        <div id="#Mongolic">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>#Mongolic</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Mongolic</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>RepositoryCollection</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">description<span>&nbsp;</span><a href="http://schema.org/description">[?]</a></th>
+            <td style='text-align:left'><span>Mongolic languages.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2025-05-28</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:memberOf<span>&nbsp;</span><a href="http://pcdm.org/models#memberOf">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">license<span>&nbsp;</span><a href="http://schema.org/license">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//language-research-technology.github.io/qa/licenses/udhr/license3/v1/">Example Custom License 3</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">accountablePerson<span>&nbsp;</span><a href="http://schema.org/accountablePerson">[?]</a></th>
+            <td style='text-align:left'><a href="#%23Omniglot">Omniglot</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:hasMember<span>&nbsp;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th>
+            <td style='text-align:left'><a href="#%23UDHR_Mongolian">UDHR_Mongolian</a></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:hasMember<span>&nbsp;</span><a href="http://pcdm.org/models#hasMember">[?]</a></th>
+            <td style='text-align:left'><a href="#UDHR_w_subcollections">Test Dataset: UDHR Translations with SubCollections</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">pcdm:memberOf<span>&nbsp;</span><a href="http://pcdm.org/models#memberOf">[?]</a></th>
+            <td style='text-align:left'><a href="#%23UDHR_Mongolian">UDHR_Mongolian</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+            </div>
+        <hr/><br/><br/><hr/><br/><br/></div>
+</div>
+
+
+
+
+
+</body>
+</html>
